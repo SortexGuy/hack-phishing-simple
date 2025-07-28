@@ -20,7 +20,7 @@ def crear_tabla(parent, cols, widths={}):
 class App(ctk.CTk):
     def __init__(self, is_first_run=False):
         super().__init__(fg_color=APP_BG_COLOR)
-        self.title("Sistema de Gestión Talentos Asociados")
+        self.title("Sistema de Gestión Nexus Talents")
         self.geometry("1100x700")
         self.minsize(800, 600)
         self.is_first_run = is_first_run
